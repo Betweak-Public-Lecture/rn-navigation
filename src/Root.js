@@ -4,8 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MainTabNavigator from './navigations/MainTabNavigator';
 import AuthStack from './navigations/AuthStack';
 
-const isLoggedIn = true;
-// const isLoggedIn = false;
+// const isLoggedIn = true;
+const isLoggedIn = false;
 
 export default function Root() {
   return (

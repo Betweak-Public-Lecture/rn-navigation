@@ -7,7 +7,7 @@ import DefaultScreen from '../screens/DefaultScreen';
 const Stack = createStackNavigator();
 
 
-/*** 1. CONFIG(PLATFORM등) 설정 ***/
+
 const defaultScreeOptions = {
   headerTintColor: "white",
   headerStyle: {
