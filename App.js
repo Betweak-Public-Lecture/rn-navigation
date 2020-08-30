@@ -8,7 +8,6 @@ import Root from './src/Root'
 
 export default function App() {
   return (
-    // <View><Text>aa</Text></View>
     <NavigationContainer>
       <Root />
     </NavigationContainer>

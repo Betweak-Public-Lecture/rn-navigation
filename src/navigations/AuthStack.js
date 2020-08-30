@@ -6,7 +6,7 @@ import DefaultScreen from '../screens/DefaultScreen'
 
 const Stack = createStackNavigator();
 
-function HomeStack() {
+function AuthStack() {
   return (
     <Stack.Navigator initialRouteName="Login">
       <Stack.Screen name="Login" component={DefaultScreen} />
@@ -15,4 +15,4 @@ function HomeStack() {
   );
 }
 
-export default HomeStack;
+export default AuthStack;

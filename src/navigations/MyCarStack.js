@@ -5,7 +5,7 @@ import DefaultScreen from '../screens/DefaultScreen'
 
 const Stack = createStackNavigator();
 
-function HomeStack() {
+function MyCarStack() {
   return (
     <Stack.Navigator initialRouteName="MyCarList">
       <Stack.Screen name="MyCarList" component={DefaultScreen} />
@@ -14,4 +14,5 @@ function HomeStack() {
   );
 }
 
-export default HomeStack;
+export default MyCarStack;
+
