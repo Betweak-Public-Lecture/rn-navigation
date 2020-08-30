@@ -5,9 +5,9 @@ import DefaultScreen from '../screens/DefaultScreen'
 
 const Stack = createStackNavigator();
 
-function AuctionStack() {
+function AuctionStack(props) {
   return (
-    <Stack.Navigator initialRouteName="AuctionHome">
+    <Stack.Navigator initialRouteName="AuctionHome" {...props}>
       <Stack.Screen name="AuctionHome" component={DefaultScreen} />
       <Stack.Screen name="AuctionList" component={DefaultScreen} />
       <Stack.Screen name="AuctionDetail" component={DefaultScreen} />
